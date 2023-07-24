@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+}
+/*menu superior*/
+
+#menuSuperior{
+    background-color:#FFD900;
+    padding: 50px;
+    font-family: 'Chakra Petch',sans-serif;
+    font-weight: bolder;
+   
+}
+.tituloSup{
+    color: #FFFFFF;
+    font-size: 50px;
+
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    line-height: 0%;
+}
+/* menu informacional */
+#princ{
+    display: flex;
+}
+#menuInf{
+    background-color:rgba(81, 73, 136, 1);
+    width: 750px;
+    height: 520px;
+    text-align: center;
+    
+}
+#infoText{
+    margin-top: 40px;
+    font-size: 25px;
+    color: #FFFFFF;
+
+}
+.yellow{
+    color: #FFD900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+}
+.white{
+    color: rgba(255, 255, 255, 1);
+    margin-top: 30px;
+}
+
+/* sessão video */
+#titVid{
+    color:rgba(227, 56, 129, 1) ;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 25px;
+    font-size: 25px;
+}
+#timer{
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    color: rgba(81, 73, 136, 1);
+}
+
+#img{
+    background-color: rgba(255, 255, 255, 1);
+    padding-left: 20px;
+}
+
+/* sessão ingressos*/
+#ingressos{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+#sex{
+    margin-left:8px ;
+}
+#sab{
+    margin-left:8px ;
+}
+#dom{
+    margin-left:8px ;
+}
+#pIng{
+    padding-top: 15px;
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(243, 198, 31, 1);
+}
+.ing{
+    height: 170px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#botao{
+    margin-left: auto;
+    margin-right: 210px;
+    height: 80px;
+    width: 330px;
+    font-size: 15pt;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(81, 73, 136, 1);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s
+    
+}
+#botao:hover {
+    background-color:rgb(43, 12, 218);
+    color: #FFFFFF;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.card-highlight{
+    box-shadow: 10px 10px 10px 10px grey ;
+}
+.card-selected{
+    border: 5px solid green;
+}
+
+input{
+    background: #514988;
+    border-radius: 10px;
+    color:#FFFFFF;
+    border: 0pt;
+    margin: 30px;
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+}

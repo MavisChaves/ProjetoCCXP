@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600&display=swap" rel="stylesheet">
+    <title>CCXP</title>
+</head>
+<body>
+    <!-- Menu Superior-->
+     <div id="menuSuperior">
+         
+             <h1> CCXP<span class="tituloSup">22</span></h1> 
+             <h2>DE 01 A 04 DE DEZEMBRO</h2>
+     </div>
+     <!-- Menu Informativo-->
+     <div id="princ">
+         <div id="menuInf">
+            <h1 class="yellow">REVIVA O ÉPICO</h1>
+            <h2 class="white">DE 01 A 04 DE DEZEMBRO</h2> <br>
+            <p id="infoText">Você consegue sentir? É aquela sensação de <br>
+                 finalmente poder falar em voz alta: "estamos <br>
+                  em casa". Sim, em dezembro de 2022, <br>
+                  teremos a volta da CCXP física. Mas não será <br>
+                  qualquer CCXP, vai ser a maior de todos os <br>
+                  tempos. Prepare-se para visitar <br>
+                  seus universos favoritos, explorar o Artists' Valley,<br> se emocionar nos auditórios e encontrar <br>
+                  aventuras épicas a cada passo pelos nossos <br>
+                  corredores.</p>
+         </div>
+            <!-- Sessão Video-->
+         <div id="video">
+            <div id="timer">
+                <div>
+                    <h1 id="dia">00<span>D</span></h1>
+                </div>
+                <div>
+                    <h1 id="hora">00<span>H</span></h1>
+                </div>
+                <div>
+                    <h1 id="minuto">00<span>M</span></h1>
+                </div>
+                <div>
+                <h1 id="segundo">00 <span>S</span>
+                </h1>
+                
+                </div>
+            </div>
+            <p id="titVid">PARA A MAIOR CCXP DE TODOS OS TEMPOS</p>
+            <div id="img">
+               <img src="imagens/alerquina.svg" width="90%">
+            </div>
+         </div>
+     </div>
+     <!-- sessão ingressos -->
+     <div>
+         <p id="pIng">AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</p>
+         <div id="ingressos">
+            <div id="qui" onclick="selectCard('#qui')" onmouseover="highlightCard('#qui')" onmouseout="highlightCard('#qui')">
+                <img class="ing" src="imagens/quinta.svg" alt="">
+            </div>
+            <div id="sex" onclick="selectCard('#sex')" onmouseover ="highlightCard('#sex')" onmouseout="highlightCard('#sex')">
+                <img class="ing" src="imagens/sexta.svg" alt="">
+            </div>
+                <div id="sab" onclick="selectCard('#sab')" onmouseover = "highlightCard('#sab')"onmouseout="highlightCard ('#sab')" >
+                <img class="ing" src="imagens/sabado.svg" alt="">
+            </div>
+            <div id="dom" onclick="selectCard('#dom')" onmouseover = "highlightCard('#dom')"onmouseout="highlightCard ('#dom')">
+                <img  class="ing" src="imagens/domingo.svg" alt="">
+            </div>
+            <input onclick="showSelectedCards()" id="botao" type="button" value="GARANTA O SEU"> 
+         </div>
+     </div>
+
+     <form action="https://www.google.com">
+        <input type="email" placeholder="Seu E-mail" required>
+        <input type="submit">
+
+     </form>
+     <script src="script.js"></script>
+</body>
+</html>
